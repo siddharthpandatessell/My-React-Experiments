@@ -1,11 +1,10 @@
+import Navbar from '../../Elements/Navigation/NavigationBar/Classic';
 import './grid.css';
 
 function index() {
     return ( 
     <div className = "App">
-        <header>
-  Header
-</header>
+        <Navbar />
 <aside>
   Sidebar
 </aside>
