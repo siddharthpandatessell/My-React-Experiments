@@ -11,8 +11,9 @@ export default function Sidebar() {
   return (
     // ul>li*10>a[href=www.google.com$]{a tag Content}
     <React.Fragment>
-      <CssBaseline />
-      <Box minWidth="30%" sx={{border: '2px solid red'}} minHeight={200}>
+      {/* CSSBASELINE provides a consistent base like sort of reset.css equivalent of vanilla js apps */}
+      <CssBaseline /> 
+      <Box minWidth="30%" sx={{border: '2px solid red', marginTop: '-100'}} >
       <Typography variant="h3" gutterBottom component="div">
         <ul>
           {getLinks()}
